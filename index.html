@@ -23,11 +23,16 @@
 
         <div>
           <label for="age">Età</label><br />
-          <input type="number" id="age" value="69" />
+          <select id="age">
+            <option value="minor">Minorenne</option>
+            <option value="standard">Maggiorenne</option>
+            <option value="over65">Over 65</option>
+          </select>
         </div>
       </div>
 
       <button id="start">Genera</button>
+      <button id="reset">Reset</button>
     </div>
 
     <div class="ticket">
@@ -43,13 +48,17 @@
             <thead>
               <tr>
                 <th>Offerta</th>
+                <th>Carrozza</th>
+                <th>Codice CP</th>
                 <th>Costo biglietto</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td id="ticket-type"></td>
-                <td id="final-price">€</td>
+                <td id="carriage"></td>
+                <td id="ticket-code"></td>
+                <td id="final-price"></td>
               </tr>
             </tbody>
           </table>

@@ -35,4 +35,5 @@ Solo una volta che il milestone 1 sarà completo e funzionante allora realizzere
 1. Al click del bottone, recupero i dati inseriti dall'utente
 2. Calcolo il prezzo iniziale in base ai chilometri
 3. Se necessario, applico uno sconto in base all'età
-4. Stampo il prezzo finale e tutti gli altri dati in pagina
+4. Randomizzo il numero della carrozza e il codice del biglietto
+5. Stampo il prezzo finale e tutti gli altri dati in pagina

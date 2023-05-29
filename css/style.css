@@ -16,7 +16,7 @@ h2
     font-size:40px;
 }
 
-input
+input, select
 {
     border-color:blue;
     border-radius:5px;
@@ -36,6 +36,7 @@ button
     border-radius:5px;
     border-width:1px;
     background-color:powderblue;
+    margin:0 10px;
 }
 
 .form
