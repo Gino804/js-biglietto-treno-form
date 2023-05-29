@@ -8,16 +8,54 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <label for="name">Nome:</label>
-    <input type="text" id="name" value="Ezio Greggio" />
+    <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+    <div class="form">
+      <div class="inputs">
+        <div>
+          <label for="name">Nome e cognome</label><br />
+          <input type="text" id="name" value="Ezio Greggio" />
+        </div>
 
-    <label for="kilometers">Chilometri:</label>
-    <input type="number" id="kilometers" value="100" />
+        <div>
+          <label for="kilometers">Chilometri</label><br />
+          <input type="number" id="kilometers" value="100" />
+        </div>
 
-    <label for="age">Età:</label>
-    <input type="number" id="age" value="69" />
+        <div>
+          <label for="age">Età</label><br />
+          <input type="number" id="age" value="69" />
+        </div>
+      </div>
 
-    <button id="start">Genera</button>
+      <button id="start">Genera</button>
+    </div>
+
+    <div class="ticket">
+      <h3>DETTAGLI PASSEGGERO</h3>
+      <div class="d-flex">
+        <div class="ticket-head">
+          <h3>NOME PASSEGGERO</h3>
+          <p id="ticket-name"></p>
+        </div>
+
+        <div class="ticket-body">
+          <table>
+            <thead>
+              <tr>
+                <th>Offerta</th>
+                <th>Costo biglietto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="ticket-type"></td>
+                <td id="final-price">€</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
 
     <script src="js/script.js"></script>
   </body>

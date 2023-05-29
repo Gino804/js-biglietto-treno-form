@@ -31,10 +31,8 @@ Solo una volta che il milestone 1 sarà completo e funzionante allora realizzere
 
 ## Steps:
 
-### MILESTONE 1
-
 0. Recupero dal DOM gli elementi necessari
 1. Al click del bottone, recupero i dati inseriti dall'utente
 2. Calcolo il prezzo iniziale in base ai chilometri
 3. Se necessario, applico uno sconto in base all'età
-4. Stampo in console il prezzo finale
+4. Stampo il prezzo finale e tutti gli altri dati in pagina
